@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "noEmit": true,
+        "jsx": "react",
+        "noImplicitThis": false,
+        "noImplicitAny": false,
+        "importHelpers": true,
+        "strictNullChecks": false,
+        "sourceMap": true,
+        "baseUrl": "src",
+        "outDir": "build",
+        "types": ["react", "react-native", "jest"],
+        "paths": {
+            "*": ["*", "*.ios", "*.android"]
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/@types/react-native",
+            "./src/@types",
+            "./src/@types/**/"
+        ]
+    },
+    "include": ["src"]
+}

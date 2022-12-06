@@ -1,0 +1,14 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "tabWidth": 4,
+    "resolveGlobalModules": true,
+    "singleAttributePerLine": true,
+    "printWidth": 120,
+    "jsxBracketSameLine": true,
+    "withNodeModules": true,
+    "semi": true,
+    "endOfLine": "auto"
+}
